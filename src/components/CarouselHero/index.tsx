@@ -1,86 +1,69 @@
 import {
   FirstImage,
   SecondImage,
+  ThirdImage,
+  FourthImage,
+  FifthImage,
+  SixthImage,
+  SeventhImage,
+  EighthImage,
 } from '../../../assets/carousel/CarouselImages'
-import styles from './styles.module.css'
-import { useRef, useState } from 'react'
+import useEmblaCarousel, { EmblaOptionsType } from 'embla-carousel-react'
+
+import './styles.css'
 const items = [
   {
-    text: 'Figma embroidered true',
+    text: 'Figma x2',
     source: FirstImage,
   },
   {
-    text: 'Figma x',
+    text: 'Figma x2',
     source: SecondImage,
   },
   {
-    text: 'Figma x',
-    source: SecondImage,
+    text: 'Figma embroidered true',
+    source: ThirdImage,
+  },
+  {
+    text: 'Figma x2',
+    source: FourthImage,
   },
   {
     text: 'Figma x',
-    source: SecondImage,
+    source: FifthImage,
   },
   {
     text: 'Figma x',
-    source: SecondImage,
+    source: SixthImage,
+  },
+  {
+    text: 'Figma x',
+    source: SeventhImage,
+  },
+  {
+    text: 'Figma x',
+    source: EighthImage,
   },
 ]
 
-const CarouselHero = () => {
-  const cards: any = useRef()
-  const slider: any = useRef()
-  const [isPressed, setIsPressed] = useState(false)
-  const [cursorX, setCursorX] = useState(0)
-  const [debounce, setDebounce] = useState(false)
+type PropType = {
+  options: EmblaOptionsType
+}
 
-  function boundSlides() {
-    const containerRect = slider.current.getBoundingClientRect()
-    const cardsRect = cards.current.getBoundingClientRect()
-    console.log(cardsRect)
-    if (cards.current.style.left.replace(/px$/, '') > 0) {
-      cards.current.style.left = 0
-    } else if (cardsRect.right < containerRect.right) {
-      cards.style.left = `-${cardsRect.width - containerRect.width}px`
-    }
-  }
-
-  const press = (e: any) => {
-    setIsPressed(true)
-    setCursorX(e.clientX - cards.current.offsetLeft)
-    // slider.style.cursor = "grabbing";
-  }
-
-  const unpress = (e: any) => {
-    console.log('unpress')
-
-    setIsPressed(false)
-  }
-
-  const move = (e: any) => {
-    if (debounce || !isPressed) return
-    if (cards.current.style.left < cursorX) {
-      cards.current.style.left = `${e.clientX - cursorX}px`
-    }
-    console.log(slider.current.getBoundingClientRect())
-    boundSlides()
-  }
+const CarouselHero: React.FC<PropType> = (props) => {
+  const { options } = props
+  const [emblaRef] = useEmblaCarousel(options)
 
   return (
-    <div
-      onMouseDown={press}
-      onMouseUp={unpress}
-      onMouseMove={move}
-      ref={slider}
-      className={styles.containerCarousel}
-    >
-      <div className={styles.carouselItems} ref={cards}>
-        {items.map((item, index) => (
-          <div className={styles.carouselItem} key={index}>
-            <h2>{item.text}</h2>
-            <item.source />
-          </div>
-        ))}
+    <div className='embla'>
+      <div className='embla__viewport' ref={emblaRef}>
+        <div className='embla__container'>
+          {items.map((item, index) => (
+            <div className='embla__slide' key={index}>
+              <item.source />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   )

@@ -2,7 +2,7 @@ import Button from '../Button'
 
 const Header = () => {
   return (
-    <header className='bg-figma-yellow'>
+    <header className='bg-figma-yellow absolute w-full'>
       <div className='flex justify-between py-5 px-20'>
         <div className=' flex gap-2'>
           <Button text='Shop' />

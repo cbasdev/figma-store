@@ -1,53 +1,286 @@
 const FirstImage = () => (
   <svg
     className='svg-cutout'
-    width={650}
-    height={648}
+    width='650'
+    height='648'
+    viewBox='0 0 650 648'
     fill='none'
     xmlns='http://www.w3.org/2000/svg'
   >
     <defs>
-      <pattern id='a' patternUnits='objectBoundingBox' width={1} height={1}>
+      <pattern
+        id='94e2a6be-8fcd-40c5-b48f-b52866f4b443'
+        patternUnits='objectBoundingBox'
+        width='1'
+        height='1'
+      >
         <image
           href='//cdn.shopify.com/s/files/1/0576/8364/0503/files/AD1A3298_3e7cdfa6-9a20-4353-b270-347040c7f141_1000x.jpg?v=1636142626'
+          x='0'
+          y='0'
           width='100%'
           height='100%'
           className='pattern-image'
           preserveAspectRatio='xMidYMid slice'
-        />
+        ></image>
       </pattern>
     </defs>
     <path
-      d='M648 4.225v639.459a1 1 0 0 1-1.517.856l-1.034 1.712 1.034-1.712-196.557-118.676a5.001 5.001 0 0 0-6.131.756L325.709 645.449a1 1 0 0 1-1.418 0L206.205 526.62a5.001 5.001 0 0 0-6.131-.756L3.517 644.54A1 1 0 0 1 2 643.684V4.224a1 1 0 0 1 1.504-.863l1.008-1.727L3.504 3.36l196.643 114.77a5 5 0 0 0 6.007-.734L324.303 2.468a1 1 0 0 1 1.394 0l118.149 114.929a5 5 0 0 0 6.007.734L646.496 3.361a1 1 0 0 1 1.504.864Z'
-      fill='url(#a)'
-    />
+      d='M648 4.22453L648 643.684C648 644.463 647.15 644.943 646.483 644.54L645.449 646.252L646.483 644.54L449.926 525.864C447.953 524.673 445.42 524.985 443.795 526.62L325.709 645.449C325.318 645.842 324.682 645.842 324.291 645.449L206.205 526.62C204.58 524.985 202.047 524.673 200.074 525.864L3.51682 644.54C2.85037 644.943 1.99997 644.463 1.99997 643.684L2 4.22451C2 3.4526 2.83746 2.97177 3.50403 3.36084L4.51221 1.63352L3.50409 3.36084L200.147 118.131C202.087 119.264 204.544 118.963 206.154 117.397L324.303 2.46841C324.691 2.09081 325.309 2.09082 325.697 2.46841L443.846 117.397C445.456 118.963 447.913 119.264 449.853 118.131L646.496 3.36087C647.163 2.97178 648 3.45263 648 4.22453Z'
+      fill='url(#94e2a6be-8fcd-40c5-b48f-b52866f4b443)'
+    ></path>
   </svg>
 )
 
 const SecondImage = () => (
   <svg
     className='svg-cutout'
-    width={650}
-    height={650}
+    width='650'
+    height='650'
+    viewBox='0 0 650 650'
     fill='none'
     xmlns='http://www.w3.org/2000/svg'
   >
     <defs>
-      <pattern id='a' patternUnits='objectBoundingBox' width={1} height={1}>
+      <pattern
+        id='188d1671-d29a-4af9-815d-2e775ba8a897'
+        patternUnits='objectBoundingBox'
+        width='1'
+        height='1'
+      >
         <image
           href='//cdn.shopify.com/s/files/1/0576/8364/0503/files/AD1A0651_83a8646b-e29f-4f25-9b55-4120bdd57bf0_1000x.jpg?v=1636576238'
+          x='0'
+          y='0'
           width='100%'
           height='100%'
           className='pattern-image'
           preserveAspectRatio='xMidYMid slice'
-        />
+        ></image>
       </pattern>
     </defs>
     <path
-      d='m647.629 324.502 1.848-.765-1.848.765-94.144-227.283a1.3 1.3 0 0 0-.704-.704L325.498 2.37a1.302 1.302 0 0 0-.996 0l-.765-1.848.765 1.848L97.219 96.515a1.3 1.3 0 0 0-.704.704L2.37 324.502a1.302 1.302 0 0 0 0 .996l94.144 227.283a1.3 1.3 0 0 0 .704.704l227.283 94.144c.319.132.677.132.996 0l227.283-94.144c.319-.132.572-.385.704-.704l94.144-227.283a1.302 1.302 0 0 0 0-.996Z'
-      fill='url(#a)'
-    />
+      d='M647.629 324.502L649.477 323.737L647.629 324.502L553.485 97.2187C553.353 96.9001 553.1 96.6469 552.781 96.5148L325.498 2.37091C325.179 2.23889 324.821 2.23895 324.502 2.37091L323.737 0.523193L324.502 2.37097L97.2187 96.515C96.9 96.6469 96.6469 96.9001 96.5149 97.2188L2.37092 324.502C2.23893 324.821 2.23893 325.179 2.37093 325.498L96.5149 552.781C96.6469 553.1 96.9 553.353 97.2187 553.485L324.502 647.629C324.821 647.761 325.179 647.761 325.498 647.629L552.781 553.485C553.1 553.353 553.353 553.1 553.485 552.781L647.629 325.498C647.761 325.179 647.761 324.821 647.629 324.502Z'
+      fill='url(#188d1671-d29a-4af9-815d-2e775ba8a897)'
+    ></path>
   </svg>
 )
 
-export { FirstImage, SecondImage }
+const ThirdImage = () => (
+  <svg
+    className='svg-cutout'
+    width='658'
+    height='658'
+    viewBox='-2 -2 654 654'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+  >
+    <defs>
+      <pattern
+        id='a2fff064-d150-402f-950f-f53d970c7949'
+        patternUnits='objectBoundingBox'
+        width='1'
+        height='1'
+      >
+        <image
+          href='//cdn.shopify.com/s/files/1/0576/8364/0503/files/AD1A0679_3ef3227a-bf6a-448f-8b28-6fa753e98bad_1000x.jpg?v=1636142626'
+          x='0'
+          y='0'
+          width='100%'
+          height='100%'
+          className='pattern-image'
+          preserveAspectRatio='xMidYMid slice'
+        ></image>
+      </pattern>
+    </defs>
+    <path
+      d='M650 0H0V125.496C0 231.179 81.9707 317.718 185.802 325C81.9707 332.282 0 418.821 0 524.504V650H650V524.504C650 418.82 568.029 332.282 464.198 325C568.029 317.718 650 231.179 650 125.496V0Z'
+      fill='url(#a2fff064-d150-402f-950f-f53d970c7949)'
+    ></path>
+  </svg>
+)
+
+const FourthImage = () => (
+  <svg
+    className='svg-cutout'
+    width='650'
+    height='650'
+    viewBox='0 0 650 650'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+  >
+    <defs>
+      <pattern
+        id='4d1b2e4d-d66c-4b87-bbad-d753c62db021'
+        patternUnits='objectBoundingBox'
+        width='1'
+        height='1'
+      >
+        <image
+          href='//cdn.shopify.com/s/files/1/0576/8364/0503/files/AD1A2638_1000x.jpg?v=1636142626'
+          x='0'
+          y='0'
+          width='100%'
+          height='100%'
+          className='pattern-image'
+          preserveAspectRatio='xMidYMid slice'
+        ></image>
+      </pattern>
+    </defs>
+    <path
+      d='M648 325C648 503.388 503.388 648 325 648C146.612 648 2 503.388 2 325C2 146.612 146.612 2 325 2C503.388 2 648 146.612 648 325Z'
+      fill='url(#4d1b2e4d-d66c-4b87-bbad-d753c62db021)'
+    ></path>
+  </svg>
+)
+
+const FifthImage = () => (
+  <svg
+    className='svg-cutout'
+    width='650'
+    height='648'
+    viewBox='0 0 650 648'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+  >
+    <defs>
+      <pattern
+        id='9ec3ec12-3d86-4315-b660-2cbee1cedb72'
+        patternUnits='objectBoundingBox'
+        width='1'
+        height='1'
+      >
+        <image
+          href='//cdn.shopify.com/s/files/1/0576/8364/0503/files/AD1A3219-Edit_1000x.jpg?v=1636585892'
+          x='0'
+          y='0'
+          width='100%'
+          height='100%'
+          className='pattern-image'
+          preserveAspectRatio='xMidYMid slice'
+        ></image>
+      </pattern>
+    </defs>
+    <path
+      d='M648 4.22453L648 643.684C648 644.463 647.15 644.943 646.483 644.54L645.449 646.252L646.483 644.54L449.926 525.864C447.953 524.673 445.42 524.985 443.795 526.62L325.709 645.449C325.318 645.842 324.682 645.842 324.291 645.449L206.205 526.62C204.58 524.985 202.047 524.673 200.074 525.864L3.51682 644.54C2.85037 644.943 1.99997 644.463 1.99997 643.684L2 4.22451C2 3.4526 2.83746 2.97177 3.50403 3.36084L4.51221 1.63352L3.50409 3.36084L200.147 118.131C202.087 119.264 204.544 118.963 206.154 117.397L324.303 2.46841C324.691 2.09081 325.309 2.09082 325.697 2.46841L443.846 117.397C445.456 118.963 447.913 119.264 449.853 118.131L646.496 3.36087C647.163 2.97178 648 3.45263 648 4.22453Z'
+      fill='url(#9ec3ec12-3d86-4315-b660-2cbee1cedb72)'
+    ></path>
+  </svg>
+)
+
+const SixthImage = () => (
+  <svg
+    className='svg-cutout'
+    width='650'
+    height='650'
+    viewBox='0 0 650 650'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+  >
+    <defs>
+      <pattern
+        id='caed66ad-af6e-4a01-ae43-bde4a813b5b8'
+        patternUnits='objectBoundingBox'
+        width='1'
+        height='1'
+      >
+        <image
+          href='//cdn.shopify.com/s/files/1/0576/8364/0503/files/AD1A2807_1000x.jpg?v=1636142626'
+          x='0'
+          y='0'
+          width='100%'
+          height='100%'
+          className='pattern-image'
+          preserveAspectRatio='xMidYMid slice'
+        ></image>
+      </pattern>
+    </defs>
+    <path
+      d='M647.629 324.502L649.477 323.737L647.629 324.502L553.485 97.2187C553.353 96.9001 553.1 96.6469 552.781 96.5148L325.498 2.37091C325.179 2.23889 324.821 2.23895 324.502 2.37091L323.737 0.523193L324.502 2.37097L97.2187 96.515C96.9 96.6469 96.6469 96.9001 96.5149 97.2188L2.37092 324.502C2.23893 324.821 2.23893 325.179 2.37093 325.498L96.5149 552.781C96.6469 553.1 96.9 553.353 97.2187 553.485L324.502 647.629C324.821 647.761 325.179 647.761 325.498 647.629L552.781 553.485C553.1 553.353 553.353 553.1 553.485 552.781L647.629 325.498C647.761 325.179 647.761 324.821 647.629 324.502Z'
+      fill='url(#caed66ad-af6e-4a01-ae43-bde4a813b5b8)'
+    ></path>
+  </svg>
+)
+
+const SeventhImage = () => (
+  <svg
+    className='svg-cutout'
+    width='658'
+    height='658'
+    viewBox='-2 -2 654 654'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+  >
+    <defs>
+      <pattern
+        id='65fbfbbc-a231-4efe-8eb0-2632cf674770'
+        patternUnits='objectBoundingBox'
+        width='1'
+        height='1'
+      >
+        <image
+          href='//cdn.shopify.com/s/files/1/0576/8364/0503/files/AD1A3554_1000x.jpg?v=1636142626'
+          x='0'
+          y='0'
+          width='100%'
+          height='100%'
+          className='pattern-image'
+          preserveAspectRatio='xMidYMid slice'
+        ></image>
+      </pattern>
+    </defs>
+    <path
+      d='M650 0H0V125.496C0 231.179 81.9707 317.718 185.802 325C81.9707 332.282 0 418.821 0 524.504V650H650V524.504C650 418.82 568.029 332.282 464.198 325C568.029 317.718 650 231.179 650 125.496V0Z'
+      fill='url(#65fbfbbc-a231-4efe-8eb0-2632cf674770)'
+    ></path>
+  </svg>
+)
+
+const EighthImage = () => (
+  <svg
+    className='svg-cutout'
+    width='650'
+    height='650'
+    viewBox='0 0 650 650'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+  >
+    <defs>
+      <pattern
+        id='90bbe729-77e1-4102-8a5f-533992e3c942'
+        patternUnits='objectBoundingBox'
+        width='1'
+        height='1'
+      >
+        <image
+          href='//cdn.shopify.com/s/files/1/0576/8364/0503/files/AD1A3597_1000x.jpg?v=1636576298'
+          x='0'
+          y='0'
+          width='100%'
+          height='100%'
+          className='pattern-image'
+          preserveAspectRatio='xMidYMid slice'
+        ></image>
+      </pattern>
+    </defs>
+    <rect
+      x='2'
+      y='2'
+      width='646'
+      height='646'
+      rx='103'
+      fill='url(#90bbe729-77e1-4102-8a5f-533992e3c942)'
+    ></rect>
+  </svg>
+)
+
+export {
+  FirstImage,
+  SecondImage,
+  ThirdImage,
+  FourthImage,
+  FifthImage,
+  SixthImage,
+  SeventhImage,
+  EighthImage,
+}
