@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         'figma-yellow': '#ffc700',
         'figma-green': '#10a958',
+        'figma-purple': '#c7b9ff',
       },
     },
   },

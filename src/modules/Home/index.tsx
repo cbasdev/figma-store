@@ -2,6 +2,8 @@ import type { EmblaOptionsType } from 'embla-carousel-react'
 import { useEffect, useRef } from 'react'
 import CarouselHero from '../../components/CarouselHero'
 import './styles.css'
+import LayerBrand from '../../components/LayerBrand/index'
+import ListProducts from '../../components/ListProducts'
 const optionsCarousel: EmblaOptionsType = {
   align: 'start',
   loop: true,
@@ -15,8 +17,16 @@ const Home = () => {
     }
   }, [carouselRef])
   return (
-    <div ref={carouselRef} className='carousel-container'>
-      <CarouselHero options={optionsCarousel} />
+    <div>
+      <section ref={carouselRef} className='carousel-container'>
+        <CarouselHero options={optionsCarousel} />
+      </section>
+      <section>
+        <LayerBrand />
+      </section>
+      <section>
+        <ListProducts />
+      </section>
     </div>
   )
 }
