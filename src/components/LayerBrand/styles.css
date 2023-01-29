@@ -1,0 +1,33 @@
+.text-brand {
+  @apply my-36 font-bold;
+  text-align: center;
+  font-size: 3.4em;
+  line-height: 3.8rem;
+  letter-spacing: 1px;
+}
+
+.word-icon {
+  margin: 0 1rem;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+@media (max-width: 1024px) {
+  .text-brand {
+    font-size: 2em;
+    line-height: 3rem;
+  }
+  .word-icon {
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 768px) {
+  .text-brand {
+    font-size: 1.5em;
+    line-height: 3rem;
+  }
+
+  .word-icon {
+    transform: scale(0.8);
+  }
+}
