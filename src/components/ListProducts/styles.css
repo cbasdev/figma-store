@@ -1,5 +1,5 @@
 .container-products {
-  padding: 0 1.4rem;
+  margin: 0 1.4rem;
   margin-bottom: 5rem;
   display: grid;
   grid-column-gap: 30px;
@@ -9,4 +9,10 @@
   column-gap: 30px;
   grid-template-columns: repeat(4, 1fr);
   row-gap: 60px;
+}
+
+@media (max-width: 768px) {
+  .container-products {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

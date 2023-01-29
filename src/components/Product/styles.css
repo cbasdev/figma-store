@@ -31,3 +31,10 @@
 .image-sizer img:hover {
   border-color: #000;
 }
+
+@media (max-width: 767px) {
+  .large-grid {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+}

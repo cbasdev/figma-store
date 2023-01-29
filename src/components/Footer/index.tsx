@@ -20,16 +20,16 @@ const Footer = () => {
 
   return (
     <section className=' bg-figma-purple '>
-      <div className='flex justify-between max-w-screen-lg mx-auto py-16 px-20'>
-        <div className='mr-20'>
+      <div className='flex justify-between max-w-screen-lg mx-auto py-16 px-4 md:px-20'>
+        <div className='mr-10 md:mr-20'>
           <RandomSvg />
         </div>
         <div className='flex flex-col  w-full'>
           <div className='flex justify-between '>
-            <h2 className='leading-10'>
+            <h2 className='hidden sm:block leading-10'>
               OBJECTS <br /> THAT INSPIRE.
             </h2>
-            <div className='flex flex-col w-1/3 gap-4'>
+            <div className='hidden md:flex flex-col w-1/3 gap-4'>
               <span>
                 <a href='https://figma.com'>Privacy & Terms</a>
               </span>
@@ -38,7 +38,7 @@ const Footer = () => {
               </span>
             </div>
           </div>
-          <div className='flex gap-4 text-2xl mt-20'>
+          <div className='hidden lg:flex gap-4 text-2xl mt-20'>
             <span>
               <a href='https://figma.com'>FIGMA ↗</a>
             </span>

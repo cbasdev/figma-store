@@ -17,7 +17,7 @@ const Home = () => {
     }
   }, [carouselRef])
   return (
-    <div>
+    <div className=' overflow-hidden'>
       <section ref={carouselRef} className='carousel-container'>
         <CarouselHero options={optionsCarousel} />
       </section>

@@ -1,5 +1,5 @@
 .text-brand {
-  @apply my-36 font-bold;
+  @apply my-20 md:my-36 font-bold;
   text-align: center;
   font-size: 3.4em;
   line-height: 3.8rem;
@@ -28,6 +28,19 @@
   }
 
   .word-icon {
+    margin: 0 0.2rem;
     transform: scale(0.8);
+  }
+}
+
+@media (max-width: 640px) {
+  .text-brand {
+    font-size: 1em;
+    line-height: 2rem;
+  }
+
+  .word-icon {
+    margin: 0rem;
+    transform: scale(0.5);
   }
 }
